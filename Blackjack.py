@@ -66,8 +66,7 @@ def welcome():
                     current_userscore += user_hand[-1]
                     if current_userscore > 21 and 11 in user_hand:
                         current_userscore -= 10
-                        print(
-                            (f"Your cards: {user_hand}, current score: {current_userscore}"))
+                        print(f"Your cards: {user_hand}, current score: {current_userscore}")
                         print(f"Computer's first card: {comp_hand}")
                     elif current_userscore > 21:
                         print(f"Your score is {current_userscore}")
